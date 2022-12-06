@@ -14,7 +14,7 @@ namespace ConsoleApp6.entidades
         public ContratoCLT()
         { }
 
-        public ContratoCLT(int cpf, int idade, int numero, string contratante, int prazo, double valor)
+        public ContratoCLT(int numero, string contratante, int prazo, double valor, int cpf, int idade)
             : base(numero, contratante, prazo, valor)
         {
             Cpf = cpf;

@@ -14,7 +14,7 @@ namespace ConsoleApp6.entidades
         public ContratoPJ()
         { }
 
-        public ContratoPJ(int cnpj, string inscricaoEstadualContratante, int numero, string contratante, int prazo, double valor)
+        public ContratoPJ(int numero, string contratante, int prazo, double valor, int cnpj, string inscricaoEstadualContratante)
             : base(numero, contratante, prazo, valor)
         {
             Cnpj = cnpj;
